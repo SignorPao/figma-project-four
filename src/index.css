@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+
+@font-face {
+  font-family: "EuclidCircularB-Light";
+  src: url("../src/assets/fonts/EuclidCircularB-Light.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "EuclidCircularB-Regular";
+  src: url("../src/assets/fonts/EuclidCircularB-Regular.ttf");
+}
+
+@font-face {
+  font-family: "EuclidCircularB-Medium";
+  src: url("../src/assets/fonts/EuclidCircularB-Medium.ttf");
+}
+
+@font-face {
+  font-family: "EuclidCircularB-SemiBold";
+  src: url("../src/assets/fonts/EuclidCircularB-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "EuclidCircularB-Bold";
+  src: url("../src/assets/fonts/EuclidCircularB-Bold.ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .wrapper {
+    @apply container mx-auto;
+  }
+  .section {
+    /* @apply my-2 py-14 md:my-4 md:py-14 lg:my-4 lg:py-16 xl:my-4 xl:py-20 2xl:my-10 2xl:py-24; */
+  }
 }
