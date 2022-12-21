@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="overflow-hidden">
       <Nav />
-      <Outlet/>
+      <Outlet />
       <Footer />
     </div>
   );

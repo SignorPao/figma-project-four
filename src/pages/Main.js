@@ -10,14 +10,14 @@ import Sponsors from "../components/Sponsors";
 
 const Main = () => {
   return (
-    <div>
+    <>
       <Header />
       <Plans />
       <About />
       <Testimonials />
       <Subscribe />
       <Sponsors />
-    </div>
+    </>
   );
 };
 
