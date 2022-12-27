@@ -23,6 +23,11 @@ module.exports = {
         hero: "url('assets/images/hero-bg.webp')",
         heroMobile: "url('assets/images/MobileBG.webp')",
       },
+      keyframes: {
+        pulse: {
+          "50%": { opacity: "50%", scale: "1.3" },
+        },
+      },
     },
     container: {
       padding: {
