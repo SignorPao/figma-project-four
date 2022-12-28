@@ -12,7 +12,7 @@ import Pinterest from "../src/assets/icons/Pinterest.svg";
 import Reddit from "../src/assets/icons/Reddit.svg";
 // import RightArrow from "../src/assets/icons/RightArrow.svg";
 import Stripe from "../src/assets/icons/stripe.svg";
-import TestimonialArrow from "../src/assets/icons/TestimonialArrow.svg";
+// import TestimonialArrow from "../src/assets/icons/TestimonialArrow.svg";
 import Twitter from "../src/assets/icons/Twitter.svg";
 import Work from "../src/assets/icons/Work.svg";
 import Youtube from "../src/assets/icons/Youtube.svg";
@@ -115,7 +115,7 @@ export const aboutData = {
 export const testimonialsData = {
   pretitle: "Lorem ipsum dolor sit",
   title: "Lorem ipsum dolor sit amet consectetur",
-  btnIcon: TestimonialArrow,
+  // btnIcon: TestimonialArrow,
   cards: [
     {
       text: "Lorem ipsum dolor sit amet consectetur. Elementum ultrices fringilla nunc erat. Sagittis ut ut lorem mi tellus tellus nisi. In etiam libero vitae lacus sit vestibulum blandit bibendum. Diam nunc justo rhoncus mattis ac at massa tellus.",
