@@ -115,7 +115,6 @@ export const aboutData = {
 export const testimonialsData = {
   pretitle: "Lorem ipsum dolor sit",
   title: "Lorem ipsum dolor sit amet consectetur",
-  // btnIcon: TestimonialArrow,
   cards: [
     {
       text: "Lorem ipsum dolor sit amet consectetur. Elementum ultrices fringilla nunc erat. Sagittis ut ut lorem mi tellus tellus nisi. In etiam libero vitae lacus sit vestibulum blandit bibendum. Diam nunc justo rhoncus mattis ac at massa tellus.",

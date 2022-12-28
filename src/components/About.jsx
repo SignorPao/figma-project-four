@@ -51,7 +51,7 @@ const About = () => {
       {/* about cards pc */}
       <div className="hidden lg:grid-container lg:pt-8">
         {/* card one */}
-        <div className="one h-[500px] shadow-xl">
+        <div className="one shadow-xl">
           {/* image */}
           <div className="w-full h-[70%]">
             <img
