@@ -1,0 +1,17 @@
+/* .carousel .swiper-button-prev::after,
+.carousel .swiper-button-next::after {
+  content: "";
+}
+
+.carousel .swiper-button-prev,
+.carousel .swiper-button-next {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #06283D;
+  border-radius: 100%;
+} */
+
+/* .carousel .left::after,
+.carousel .right::after {
+  content: "";
+} */

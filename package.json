@@ -41,6 +41,7 @@
     "postcss": "^8.4.20",
     "react-onclickoutside": "^6.12.2",
     "react-router-hash-link": "^2.4.3",
+    "swiper": "^8.4.5",
     "tailwindcss": "^3.2.4"
   }
 }

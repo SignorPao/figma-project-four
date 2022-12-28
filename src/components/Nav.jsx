@@ -50,7 +50,7 @@ const Nav = () => {
         <div>
           <a
             href="#"
-            className="font-primary font-bold text-xl text-primary-400 lg:text-2xl 2xl:text-3xl"
+            className="font-primary font-bold text-xl text-primary-400 lg:text-2xl 2xl:text-3xl select-none"
           >
             {logo}
           </a>
@@ -66,7 +66,7 @@ const Nav = () => {
               <li key={index}>
                 <a
                   href={`#${href}`}
-                  className="font-semibold font-primary capitalize text-primary-400 hover:text-accent link-hover 2xl:text-xl"
+                  className="font-semibold font-primary capitalize text-primary-400 hover:text-accent link-hover 2xl:text-xl select-none"
                 >
                   {link}
                 </a>

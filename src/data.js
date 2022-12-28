@@ -89,28 +89,24 @@ export const aboutData = {
       title: "Lorem ipsum dolor sit amet",
       subtitle:
         "Lorem ipsum dolor sit amet consectetur. Orci ut maecenas odio et nunc. Mi ornare quam vel lacus arcu sapien vestibulum vel. Consectetur augue rhoncus at hendrerit pellentesque.",
-      order: '1',
     },
     {
       image: Screen3Img3,
       title: "Lorem ipsum dolor sit amet",
       subtitle:
         "Lorem ipsum dolor sit amet consectetur. Orci ut maecenas odio et nunc. Mi ornare quam vel lacus arcu sapien vestibulum vel. Consectetur augue rhoncus at hendrerit pellentesque.",
-      order: '2',
-    },
-    {
-      image: Screen3Img4,
-      title: "Lorem ipsum dolor sit amet",
-      subtitle:
-        "Lorem ipsum dolor sit amet consectetur. Orci ut maecenas odio et nunc. Mi ornare quam vel lacus arcu sapien vestibulum vel. Consectetur augue rhoncus at hendrerit pellentesque.",
-      order: '4',
     },
     {
       image: Screen3Img2,
       title: "Lorem ipsum dolor sit amet",
       subtitle:
         "Lorem ipsum dolor sit amet consectetur. Orci ut maecenas odio et nunc. Mi ornare quam vel lacus arcu sapien vestibulum vel. Consectetur augue rhoncus at hendrerit pellentesque.",
-      order: '3',
+    },
+    {
+      image: Screen3Img4,
+      title: "Lorem ipsum dolor sit amet",
+      subtitle:
+        "Lorem ipsum dolor sit amet consectetur. Orci ut maecenas odio et nunc. Mi ornare quam vel lacus arcu sapien vestibulum vel. Consectetur augue rhoncus at hendrerit pellentesque.",
     },
   ],
 };
