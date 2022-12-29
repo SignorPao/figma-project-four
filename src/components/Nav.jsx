@@ -6,6 +6,9 @@ import NavMobile from "./NavMobile";
 // import data
 import { navData } from "../data";
 
+// import Link
+import { HashLink as Link } from "react-router-hash-link";
+
 const Nav = () => {
   // destructure nav data
   const { logo, menu } = navData;
@@ -64,15 +67,31 @@ const Nav = () => {
 
             return (
               <li key={index}>
-                <a
-                  href={`#${href}`}
+                <Link
+                  to={`/${href}`}
                   className="font-semibold font-primary capitalize text-primary-400 hover:text-accent link-hover 2xl:text-xl select-none"
                 >
                   {link}
-                </a>
+                </Link>
               </li>
             );
           })}
+          <li>
+            <Link
+              to={"/services"}
+              className="font-semibold font-primary capitalize text-primary-400 hover:text-accent link-hover 2xl:text-xl select-none"
+            >
+              Services
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={"/login"}
+              className="font-semibold font-primary capitalize text-primary-400 hover:text-accent link-hover 2xl:text-xl select-none"
+            >
+              Login
+            </Link>
+          </li>
         </ul>
 
         {/* burger icon: mobile - show | desktop - hidden */}

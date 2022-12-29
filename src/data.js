@@ -28,14 +28,12 @@ import Avatar from "../src/assets/images/avatar.webp";
 export const navData = {
   logo: "LogoType",
   menu: [
-    { link: "Home", href: "home" },
-    { link: "Plans", href: "plans" },
-    { link: "About", href: "about" },
-    { link: "Testimonials", href: "testimonials" },
-    { link: "Contacts", href: "contacts" },
+    { link: "Home", href: "#home" },
+    { link: "Plans", href: "#plans" },
+    { link: "About", href: "#about" },
+    { link: "Testimonials", href: "#testimonials" },
+    { link: "Contacts", href: "#contacts" },
   ],
-  // menuBtn: MobileMenu,
-  // menuClose: Close,
 };
 
 // header data
@@ -226,10 +224,11 @@ export const footerData = {
     addressLine1: "660 W Sierra Madre Blvd #M",
     addressLine2: "Sierra Madre, California(CA), 91024",
   },
-  copyright: "Copyright © 2022 LogoType. All Rights Reseved.",
-  me: [
-    { text: "Created by " },
-    { name: "@signorPao" },
-    { href: "https://github.com/SignorPao" },
-  ],
+  copyright1: "Copyright © 2022 LogoType.",
+  copyright2: "All Rights Reseved.",
+  me: {
+    text: "Created by ",
+    name: "@signorPao",
+    href: "https://github.com/SignorPao",
+  },
 };

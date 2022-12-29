@@ -39,6 +39,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.20",
+    "react-headless-accordion": "^1.0.2",
     "react-onclickoutside": "^6.12.2",
     "react-router-hash-link": "^2.4.3",
     "swiper": "^8.4.5",
