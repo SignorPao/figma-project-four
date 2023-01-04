@@ -11,7 +11,7 @@ const NavMobile = ({ click }) => {
   const { menu } = navData;
 
   return (
-    <div className="w-full h-full bg-primary-400 text-white font-semibold font-primary capitalize">
+    <div className="w-full h-full bg-primary-400/90 text-white font-semibold font-primary capitalize">
       <ul className="h-full flex flex-col justify-center items-center gap-y-8">
         {menu.map((item, index) => {
           // destructure menu data
@@ -26,10 +26,14 @@ const NavMobile = ({ click }) => {
           );
         })}
         <li>
-          <Link to={"/services"}>Services</Link>
+          <Link to={"/services"} onClick={click}>
+            Services
+          </Link>
         </li>
         <li>
-          <Link to={"/login"}>Login</Link>
+          <Link to={"/login"} onClick={click}>
+            Sign in
+          </Link>
         </li>
       </ul>
     </div>

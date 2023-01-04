@@ -56,7 +56,6 @@ export const plansData = {
       subtitle:
         "Lorem ipsum dolor sit amet consectetur. Velit libero et bibendum donec at hendrerit lorem finibus sit amet",
       btnText: "Learn more",
-      // btnArrow: RightArrow,
     },
     {
       icon: Heart,
@@ -64,7 +63,6 @@ export const plansData = {
       subtitle:
         "Lorem ipsum dolor sit amet consectetur. Velit bibendum donec at hendrerit lorem finibus sit amet",
       btnText: "Learn more",
-      // btnArrow: RightArrow,
     },
     {
       icon: Work,
@@ -72,7 +70,6 @@ export const plansData = {
       subtitle:
         "Lorem ipsum dolor sit amet consectetur. Velit libero et bibendum hendrerit lorem finibus sit amet",
       btnText: "Learn more",
-      // btnArrow: RightArrow,
     },
   ],
 };

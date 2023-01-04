@@ -55,9 +55,9 @@ const Plans = () => {
                     <path
                       d="M1 18.5H41M23.5 1L41 18.5L23.5 36"
                       stroke="black"
-                      stroke-width="4"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 </span>
