@@ -19,6 +19,7 @@ const Testimonials = () => {
     <section id="testimonials" className="wrapper section">
       {/* testimonials top */}
       <div className="flex items-center justify-between">
+        
         {/* text */}
         <div className="flex flex-col title-gap items-center lg:items-start justify-center text-center lg:text-left">
           <p className="pretitle">{pretitle}</p>

@@ -21,6 +21,7 @@ const Footer = () => {
       <div className="wrapper text-primary-400 flex flex-col gap-y-8">
         {/* footer top */}
         <div className="flex flex-col gap-y-8 pb-6 border-b border-primary-400/20 lg:flex-row lg:gap-x-20 xl:gap-x-28">
+          
           {/* logo & socials */}
           <div className="flex flex-col gap-y-4 items-center text-center lg:text-left lg:flex-[50] lg:items-start lg:justify-start">
             <a

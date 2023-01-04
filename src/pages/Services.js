@@ -136,6 +136,7 @@ const Services = () => {
         totam optio repellendus molestias modi vitae quas, suscipit consectetur
         vero.
       </p>
+      
       <p className="font-euclidLight text-primary-300 text-xs lg:text-sm text-center">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est voluptates
         perspiciatis facilis animi cum impedit qui deleniti a fugit praesentium

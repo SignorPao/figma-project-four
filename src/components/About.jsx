@@ -52,6 +52,7 @@ const About = () => {
       <div className="hidden lg:grid-container lg:pt-8">
         {/* card one */}
         <div className="one shadow-xl">
+
           {/* image */}
           <div className="w-full h-[70%]">
             <img
@@ -60,6 +61,7 @@ const About = () => {
               className="w-full h-full object-cover"
             />
           </div>
+
           {/* text */}
           <div className="w-full h-[30%] flex flex-col gap-y-2 px-6 items-start justify-center">
             <h3 className="font-euclidSemiBold text-lg text-primary-400">
@@ -83,6 +85,7 @@ const About = () => {
               className="w-full h-full object-cover"
             />
           </div>
+
           {/* text */}
           <div className="w-full h-[40%] flex flex-col gap-y-2 px-6 items-start justify-center">
             <h3 className="font-euclidSemiBold text-lg text-primary-400">
@@ -106,6 +109,7 @@ const About = () => {
               className="w-full h-full object-cover"
             />
           </div>
+
           {/* text */}
           <div className="w-full h-[40%] flex flex-col gap-y-2 px-6 items-start justify-center">
             <h3 className="font-euclidSemiBold text-lg text-primary-400">
@@ -128,6 +132,7 @@ const About = () => {
               className="w-full h-full object-cover"
             />
           </div>
+          
           {/* text */}
           <div className="w-full h-[30%] flex flex-col gap-y-2 px-6 items-start justify-center">
             <h3 className="font-euclidSemiBold text-lg text-primary-400">

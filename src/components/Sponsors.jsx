@@ -14,21 +14,25 @@ const Sponsors = () => {
         alt="google"
         className="cursor-pointer grayscale hover:grayscale-0 link-hover w-24 lg:w-36"
       />
+
       <img
         src={pinterest}
         alt="pinterest"
         className="cursor-pointer grayscale hover:grayscale-0 link-hover w-32 lg:w-36"
       />
+
       <img
         src={reddit}
         alt="reddit"
         className="cursor-pointer grayscale hover:grayscale-0 link-hover w-28 lg:w-36"
       />
+
       <img
         src={figma}
         alt="figma"
         className="cursor-pointer grayscale hover:grayscale-0 link-hover w-20 lg:w-24"
       />
+      
       <img
         src={stripe}
         alt="stripe"
